@@ -8,7 +8,7 @@ class SomeClass:
         return SomeClass._instance
 
     def __init__(self):
-        print(f"Instance ID: {id(self)}")
+        print(f"Singleton instance ID: {id(self)}")
 
 
 some_singleton_class = SomeClass.get_instance()
